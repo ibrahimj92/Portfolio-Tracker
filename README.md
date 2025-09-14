@@ -1,15 +1,18 @@
 # Portfolio Tracker
-Python tool to monitor and analyse multi-asset portfolios.
+
+Python tool to track and analyse multi-asset portfolios, including returns, volatility, asset allocation, and performance metrics.
 
 ## Features
-- Import holdings/transactions (CSV)
-- Daily portfolio value & PnL
-- Return/volatility/Sharpe calculations
-- Allocation by asset / sector
-- Performance and allocation charts (exportable)
+- Import and clean portfolio holdings and transaction data
+- Calculate daily, monthly, and annualised returns
+- Compute portfolio risk metrics (volatility, Sharpe ratio, max drawdown)
+- Analyse portfolio allocation across asset classes
+- Generate performance reports with visualisations
 
 ## Tech Stack
-- Python (Pandas, NumPy, Plotly/Matplotlib)
+- Python (Pandas, NumPy, Matplotlib, Seaborn)
 
 ## Example Output
-Cumulative return chart, allocation pie/bar charts, summary stats table.
+- Portfolio allocation pie charts
+- Equity curve and performance plots
+- Risk/return summary metrics (Sharpe ratio, volatility, drawdown)
